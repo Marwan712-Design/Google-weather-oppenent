@@ -1,0 +1,63 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+
+  }
+  
+  .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  .inputValue {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: 'Cairo', sans-serif;
+    text-align: left;
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+  }
+  .button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .display {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .city {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .temp, .weathercondition {
+    font-size: 24px;
+  }
+  
